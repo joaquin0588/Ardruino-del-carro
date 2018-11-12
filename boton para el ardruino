@@ -1,0 +1,15 @@
+//https://richardallen.me/2015/03/02/arduino-uno-push-buttons.html//
+
+
+
+void loop() {
+    if (digitalRead(8) == LOW) {
+        //The button is pressed!
+      delay(100);  
+   }
+   
+  else {
+    // do something else here
+     delay(100);
+  }
+}
